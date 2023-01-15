@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Alura-Books</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  
+
+  <header class="cabecalho">
+
+    <div class="cabecalho-container">
+      <input type="checkbox" id="menu" class="botao-container">
+      <label for="menu">
+      <span class="menu-hamburguer cabecalho-imagem"></span>
+    </label>
+    <ul class="lista-menu">
+      <li class="menu-titulo">Categorias</li>
+      <li class="menu-item">
+        <a href="#" class="menu-link">Programação</a>
+      </li> 
+    </ul>
+      <img src="./img/Logo.svg" alt="Logo Alura Books" class="cabecalho-imagem">
+    
+    </div>
+      
+    
+    <div class="cabecalho-container">
+      <a href="#"><img src="./img/Favoritos.svg" alt="Favoritos" class="cabecalho-imagem"></a>
+      <a href="#"><img src="./img/Compras.svg" alt="Compras" class="cabecalho-imagem"></a>
+      <a href="#"><img src="./img/Usuario.svg" alt="Perfil" class="cabecalho-imagem"></a>
+    </div>      
+  </header>
 </body>
 </html>
